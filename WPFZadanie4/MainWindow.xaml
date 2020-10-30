@@ -6,7 +6,5 @@
         xmlns:local="clr-namespace:WPFZadanie4"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Canvas Name="canvas" MouseLeftButtonDown="canvas_MouseLeftButtonDown" MouseLeftButtonUp="canvas_MouseLeftButtonUp" MouseMove="canvas_MouseMove" KeyDown="canvas_KeyDown" Focusable="True"/>
 </Window>
